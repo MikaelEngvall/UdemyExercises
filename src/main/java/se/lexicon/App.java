@@ -16,5 +16,7 @@ public class App
         System.out.print(FactorPrinter.printFactors(10)); //Ex. 21
         System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(12, 30)); //Ex. 22
         System.out.println(PerfectNumber.isPerfectNumber(6) ? "Yes" : "No"); //Ex. 23
+        System.out.print("123 becomes ");
+        System.out.println(NumberToWords.numberToWords(123)); //Ex. 24
     }
 }
