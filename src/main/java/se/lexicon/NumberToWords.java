@@ -29,7 +29,7 @@ public class NumberToWords {
         for (int i = 0; i < digitCountDifference-1; i++) {
             System.out.print("Zero ");
         }
-        return "\nDone";
+        return "\n";
     }
 
     public static int reverse(int number) {
